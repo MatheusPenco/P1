@@ -1,0 +1,109 @@
+/* Estilos para o navbar */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Estilos para os elementos do navbar na esquerda */
+.navbar-left {
+  flex: 1;
+}
+
+/* Estilos para os elementos do navbar na direita */
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para o título "Minhas Anotações" */
+.navbar-left h2 {
+  margin: 0;
+}
+
+/* Estilos para o email do usuário */
+.user-email {
+  margin-right: 10px;
+}
+
+/* Estilos para o botão de logout */
+#logout-btn {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#logout-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos existentes */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-container {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.note-editor {
+  background-color: #f0f0f0;
+  padding: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.note-editor h2 {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 90%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#save-btn {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 15px;
+  max-width: 10vh;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#save-btn:hover {
+  background-color: #0056b3;
+}
+
+.note-display {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.note-display h2 {
+  margin-bottom: 10px;
+}
+
+.note-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
